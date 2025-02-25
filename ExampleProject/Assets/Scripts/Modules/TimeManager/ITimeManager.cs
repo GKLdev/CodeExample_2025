@@ -53,7 +53,6 @@ namespace Modules.TimeManager_Public
         /// <summary>
         /// Returns normalized progress of given cooldown
         /// </summary>
-        /// <returns></returns>
         float GetCooldownProgressNormalised(int _id);
 
         /// <summary>
@@ -64,7 +63,6 @@ namespace Modules.TimeManager_Public
         /// <summary>
         /// s\Stop all
         /// </summary>
-        /// <param name="_id"></param>
         void StopAllCoolDowns(int _id);
 
         /// <summary>
