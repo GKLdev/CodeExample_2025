@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1ac117598a30541b74184388e33cf7, type: 3}
   m_Name: DbEntryDamageDispatcher_MobAttackBasic
   m_EditorClassIdentifier: 
-  id: 4
+  id: 3
   alias: DamageDispatcher_MobAttack
   subEntries: []
   Config: {fileID: 11400000, guid: dc288328c2b9aec4fa69d8b4d136c0b8, type: 2}

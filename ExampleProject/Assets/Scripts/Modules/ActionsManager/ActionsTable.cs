@@ -12,8 +12,8 @@ namespace Modules.ActionsManger_Public
     /// Purpose:
     /// Config for actions which links action alias to action type and its settings
     /// </summary>
-    
-    // TODO: Make this auto generated
+
+    // TODO: Make this auto generated like AliasesConfig
     public static class ActionsTable
     {
         const int expectedMaxEnemiesCount = 100 + 1; // 1 is player itself
@@ -28,7 +28,6 @@ namespace Modules.ActionsManger_Public
             { ActionAliases.ExampleActionPrewarm,   (typeof(Action_Example_Prewarm), (int)CATEGORY_ACTIONCONFIGS.Action_Example, 4) },
 
             // TODO: add custom actions here
-            { ActionAliases.AbilitySwordAttack,     (typeof(Action_AttackSword), (int)CATEGORY_ABILITYCONFIGS.Ability_SwordAttack, 1) },
             { ActionAliases.AbilityMobAttack,       (typeof(Action_MobAttack), (int)CATEGORY_ABILITYCONFIGS.Ability_MobAttack, 1) }
         };
 

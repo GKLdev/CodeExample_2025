@@ -20,7 +20,6 @@ namespace Modules.ActionsManger_Public
         public const string AnimSwordAttack0    = "Anim_Sword_Attack0";
         
         // Abilities
-        public const string AbilitySwordAttack      = "Ability_SwordAttack";
         public const string AbilityMobAttack        = "Ability_MobAttack";
     }
 }

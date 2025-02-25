@@ -45,8 +45,11 @@ namespace Editor.ReferenceDb
                 {
                     entryContainer.entry.SetId(++lastId);
                     entryContainer.entry.SetAlias(entryContainer.alias);
-                    
-                    EditorUtility.SetDirty(entryContainer.entry);
+
+                    if (entryContainer.entry != null)
+                    {
+                        EditorUtility.SetDirty(entryContainer.entry);
+                    }
                 });
             });
             

@@ -8,6 +8,8 @@ namespace Modules.CharacterVisualController_Public
     /// Purpose:
     /// Animations config. Store animation trigger names for AnimationController
     /// </summary>
+
+    // TODO: make auto generated like AliasesConfig
     public static class CharacterAnimations
     {
         // *****************************

@@ -19,8 +19,6 @@ MonoBehaviour:
       entry: {fileID: 11400000, guid: 451e731b4af072d4095831d1a3d8a4ec, type: 2}
   - categoryName: AbilityConfigs
     entries:
-    - alias: Ability_SwordAttack
-      entry: {fileID: 11400000, guid: dae897bb02dcbc74f9c9748a84a7f965, type: 2}
     - alias: Ability_MobAttack
       entry: {fileID: 11400000, guid: b8a974e00598dcf4989fb303150d706d, type: 2}
   - categoryName: DamageDispatchers

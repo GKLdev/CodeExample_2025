@@ -23,18 +23,17 @@ namespace Modules.ReferenceDb_Public
 
 		// AbilityConfigs //
 
-		public const int Ability_SwordAttack = 1;
-		public const int Ability_MobAttack = 2;
+		public const int Ability_MobAttack = 1;
 
 		// DamageDispatchers //
 
-		public const int DamageDispatcher_Default = 3;
-		public const int DamageDispatcher_MobAttack = 4;
+		public const int DamageDispatcher_Default = 2;
+		public const int DamageDispatcher_MobAttack = 3;
 
 		// Characters //
 
-		public const int Character_Player = 5;
-		public const int Character_Test_AI = 6;
+		public const int Character_Player = 4;
+		public const int Character_Test_AI = 5;
 
 		// Dictionaries //
 
@@ -54,12 +53,11 @@ namespace Modules.ReferenceDb_Public
 		private readonly Dictionary<string, int> dictAliasToId = new()
 		{
 		    { "Action_Example", 0 },
-		    { "Ability_SwordAttack", 1 },
-		    { "Ability_MobAttack", 2 },
-		    { "DamageDispatcher_Default", 3 },
-		    { "DamageDispatcher_MobAttack", 4 },
-		    { "Character_Player", 5 },
-		    { "Character_Test_AI", 6 },
+		    { "Ability_MobAttack", 1 },
+		    { "DamageDispatcher_Default", 2 },
+		    { "DamageDispatcher_MobAttack", 3 },
+		    { "Character_Player", 4 },
+		    { "Character_Test_AI", 5 },
 
 		};
 
@@ -81,8 +79,7 @@ namespace Modules.ReferenceDb_Public
     /// </summary>
     public enum CATEGORY_ABILITYCONFIGS
     {
-		Ability_SwordAttack = 1,
-		Ability_MobAttack = 2,
+		Ability_MobAttack = 1,
 
     }
     /// <summary>
@@ -91,8 +88,8 @@ namespace Modules.ReferenceDb_Public
     /// </summary>
     public enum CATEGORY_DAMAGEDISPATCHERS
     {
-		DamageDispatcher_Default = 3,
-		DamageDispatcher_MobAttack = 4,
+		DamageDispatcher_Default = 2,
+		DamageDispatcher_MobAttack = 3,
 
     }
     /// <summary>
@@ -101,8 +98,8 @@ namespace Modules.ReferenceDb_Public
     /// </summary>
     public enum CATEGORY_CHARACTERS
     {
-		Character_Player = 5,
-		Character_Test_AI = 6,
+		Character_Player = 4,
+		Character_Test_AI = 5,
 
     }
 }

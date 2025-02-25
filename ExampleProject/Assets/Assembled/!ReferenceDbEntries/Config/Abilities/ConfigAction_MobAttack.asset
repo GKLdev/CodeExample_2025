@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d97813a6c616ab41a963580cc5545b5, type: 3}
   m_Name: ConfigAction_MobAttack
   m_EditorClassIdentifier: 
-  id: 2
+  id: 1
   alias: Ability_MobAttack
   subEntries: []
   BaseDamage: 3

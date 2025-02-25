@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1ac117598a30541b74184388e33cf7, type: 3}
   m_Name: DbEntryDamageDispatcher_Default
   m_EditorClassIdentifier: 
-  id: 3
+  id: 2
   alias: DamageDispatcher_Default
   subEntries: []
   Config: {fileID: 11400000, guid: fd33b791885c1fb41b65efb03d5dca1e, type: 2}

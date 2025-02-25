@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 734490a84e95d97429abd1dcb49f4796, type: 3}
   m_Name: DbEntryCharacter_Player
   m_EditorClassIdentifier: 
-  id: 5
+  id: 4
   alias: Character_Player
   subEntries: []
   Config: {fileID: 11400000, guid: 2d201f3559bbf5e449c9b2f1c39f960f, type: 2}

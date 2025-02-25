@@ -16,5 +16,4 @@ MonoBehaviour:
   alias: 
   subEntries: []
   Abilities:
-  - Alias: Ability_SwordAttack
   - Alias: Ability_MobAttack
