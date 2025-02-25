@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1853656c92057584cb4ec55dffc600dd, type: 3}
+  m_Name: DbEntries
+  m_EditorClassIdentifier: 
+  categories:
+  - categoryName: ActionConfigs
+    entries:
+    - alias: Action_Example
+      entry: {fileID: 11400000, guid: 451e731b4af072d4095831d1a3d8a4ec, type: 2}
+  - categoryName: AbilityConfigs
+    entries:
+    - alias: Ability_SwordAttack
+      entry: {fileID: 11400000, guid: dae897bb02dcbc74f9c9748a84a7f965, type: 2}
+    - alias: Ability_MobAttack
+      entry: {fileID: 11400000, guid: b8a974e00598dcf4989fb303150d706d, type: 2}
+  - categoryName: DamageDispatchers
+    entries:
+    - alias: DamageDispatcher_Default
+      entry: {fileID: 11400000, guid: 3af535332bf441a459f7d8d27ea6fa81, type: 2}
+    - alias: DamageDispatcher_MobAttack
+      entry: {fileID: 11400000, guid: 6d94aed36a58e7d45a76dc80baa96ac0, type: 2}
+  - categoryName: Characters
+    entries:
+    - alias: Character_Player
+      entry: {fileID: 11400000, guid: 3f3ebec19b3784c4caba8aed4bc175b5, type: 2}
+    - alias: Character_Test_AI
+      entry: {fileID: 11400000, guid: e950d73e994378c43b2f8fef664442bd, type: 2}

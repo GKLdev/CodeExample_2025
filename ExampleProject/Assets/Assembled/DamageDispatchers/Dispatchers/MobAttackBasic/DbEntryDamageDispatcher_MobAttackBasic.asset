@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1ac117598a30541b74184388e33cf7, type: 3}
+  m_Name: DbEntryDamageDispatcher_MobAttackBasic
+  m_EditorClassIdentifier: 
+  id: 4
+  alias: DamageDispatcher_MobAttack
+  subEntries: []
+  Config: {fileID: 11400000, guid: dc288328c2b9aec4fa69d8b4d136c0b8, type: 2}
+  Dispatcher: {fileID: 1531341632828620638, guid: c5f84788fd62f2a4b96c57ff63d38c3b,
+    type: 3}
