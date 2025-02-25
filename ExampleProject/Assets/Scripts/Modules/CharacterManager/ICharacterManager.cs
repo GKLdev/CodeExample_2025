@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Modules.CharacterManager_Public
 {
-    // TODO: probably add an option to use hashcode instead of string aliases.
+    // TODO: add an option to use hashcode instead of string aliases.
     public interface ICharacterManager : IModuleInit, IModuleUpdate, IDisposable
     {
         ICharacterFacade CreateCharacter(CATEGORY_CHARACTERS _type);
@@ -17,7 +17,6 @@ namespace Modules.CharacterManager_Public
         /// <summary>
         /// Gets player character. If player not yet created, method will return null
         /// </summary>
-        /// <returns></returns>
         ICharacterFacade GetPlayer();
     }
 }

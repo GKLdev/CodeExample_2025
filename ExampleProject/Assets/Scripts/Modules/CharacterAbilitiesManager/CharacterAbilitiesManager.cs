@@ -18,7 +18,7 @@ using Zenject;
 namespace Modules.CharacterAbilitiesManager
 {
     /// <summary>
-    /// Purpose: Start/Stop/Interrupt character abilities, imple,enmtes ad Actions.
+    /// Purpose: Start/Stop/Interrupt character abilities, implemented as Actions.
     /// </summary>
     /// 
     /*   

@@ -7,16 +7,11 @@ using UnityEngine;
 
 namespace Modules.DamageManager_Public
 {
-    // TODO: add reaction logioc to damageable component for NPCs
     public interface IDamageable : IDisposable
     {
         /// <summary>
-        /// Callback on damage.
+        /// Callback on damage
         /// </summary>
-        /// <param name="_source"></param>
-        /// <param name="_type"></param>
-        /// <param name="_value"></param>
-        /// <returns></returns>
         bool OnDamage(DamageSource _source, DamageType _type, float _value);
 
         /// <summary>
@@ -31,12 +26,12 @@ namespace Modules.DamageManager_Public
         void SetupConfig(ConfigDamageable _config);
 
         /// <summary>
-        /// Reset to dfault values. Active state not affected.
+        /// Reset to default values. Active state not affected
         /// </summary>
         void ResetDamageable();
 
         /// <summary>
-        /// Set active/innactive. Damageable will receive only while active.
+        /// Set active/innactive.
         /// </summary>
         /// <param name="_val"></param>
         void ToggleActive(bool _val);
@@ -44,8 +39,6 @@ namespace Modules.DamageManager_Public
         Faction GetFaction();
 
         bool IsDead();
-
-        //bool ApplyStatusEffect(System.Object _source); // TODO: status effect category
 
         event System.Action<bool> OnDamageApplied; 
     }

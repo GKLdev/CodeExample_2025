@@ -8,7 +8,6 @@ using Zenject;
 
 namespace Modules.ReferenceDb
 {
-    // TODO: Add min and max id aliases for each category af ReferenceDb
     public class ReferenceDb : LogicBase, IReferenceDb
     {
         [SerializeField]

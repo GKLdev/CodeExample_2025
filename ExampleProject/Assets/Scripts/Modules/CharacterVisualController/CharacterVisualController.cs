@@ -9,11 +9,6 @@ using Unity.VisualScripting;
 using UnityEngine;
 using Zenject;
 
-// TODO:
-// actions mgr and acnimation actions!
-// mb even movement anims as action (activates when vlocity is not zero and deactivates when it becomes zero + by other actions)
-// callbacks from animation (with params)
-
 namespace Modules.CharacterVisualController
 {
     public class CharacterVisualController : LogicBase, ICharacterVisualController

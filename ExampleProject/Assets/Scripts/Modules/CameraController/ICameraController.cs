@@ -11,30 +11,26 @@ namespace Modules.CameraController_Public
         /// <summary>
         /// Define target to follow
         /// </summary>
-        /// <param name="_target"></param>
         void SetFollowTarget(Transform _target, bool _forceSnapPosition = false);
 
         /// <summary>
-        /// Follow or not follow target. Sets true autotically when calling 'SetFollowTarget'
+        /// Follow or not follow target. Sets true automatically when calling 'SetFollowTarget'
         /// </summary>
-        /// <param name="_val"></param>
         void ToggleFollow(bool _val);
 
         /// <summary>
         /// Play camera impulse like shake e t c
         /// </summary>
-        /// <param name="_type"></param>
-        /// <param name="_direction"></param>
-        /// <param name="_magnitude"></param>
         void PlayImpulse(CameraImpulseType _type, Vector3 _direction, float _magnitude);
 
         /// <summary>
         /// Toggles camera logic and render
         /// </summary>
-        /// <param name="_val"></param>
         void ToggleCamera(bool _val);
 
-        // casts position from camera center to ground
+        /// <summary>
+        /// Casts position from camera center to ground
+        /// </summary>
         bool RaycastPosition(out Vector3 _point);
 
         /// <summary>
@@ -43,7 +39,7 @@ namespace Modules.CameraController_Public
         void ResetModule();
 
         /// <summary>
-        /// Returns frustrum rectangle propjected on camera's surface
+        /// Returns frustrum rectangle projected on camera's surface
         /// </summary>
         /// <returns></returns>
         FrustumProjectionContainer GetFrustrumSurfaceProjection();

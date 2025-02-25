@@ -9,12 +9,6 @@ using UnityEngine.AI;
 
 namespace Modules.CharacterController
 {
-    // TODO:
-    // step resolve  (will hit hard later )
-    // snap to ground so controller will not fall down on down slopes! (if needed - in case slopes will be a cmmon thing)
-
-    // TODO: navmesh agent initialization according to config
-
     public class CharacterController : LogicBase, ICharacterController
     {
         [SerializeField]
